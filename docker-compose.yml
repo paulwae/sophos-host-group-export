@@ -1,0 +1,8 @@
+services:
+  group-export:
+    image: paulwae/sophos-host-group-export:latest
+    volumes:
+      - .:/data
+    working_dir: /data
+    stdin_open: true
+    tty: true
